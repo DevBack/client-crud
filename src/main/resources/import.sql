@@ -1,0 +1,12 @@
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Giovanna Vanessa Cavalcanti','885.770.246-44',2.45,TIMESTAMP WITHOUT TIME ZONE '2020-07-13',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Isabella Isis Jaqueline Moura','751.334.826-04',27.9,TIMESTAMP WITHOUT TIME ZONE '1959-02-07',1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Marcos Henry Moura Severino','987.622.923-04',0.45,TIMESTAMP WITHOUT TIME ZONE '1966-09-24',5);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Vinicius Igor Vitor da Rosa','885.770.246-44',2.45,TIMESTAMP WITHOUT TIME ZONE '2020-07-13',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Agatha Cláudia Lara','885.770.246-44',2.45,TIMESTAMP WITHOUT TIME ZONE '2020-07-13',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Kauê Diego da Rosa','885.770.246-44',2.45,TIMESTAMP WITHOUT TIME ZONE '2020-07-13',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Marcos Roberto Juan da Rocha','885.770.246-44',2.45,TIMESTAMP WITHOUT TIME ZONE '2020-07-13',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Sandra Marcela Souza','885.770.246-44',2.45,TIMESTAMP WITHOUT TIME ZONE '2020-07-13',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Valentina Flávia Silva','885.770.246-44',2.45,TIMESTAMP WITHOUT TIME ZONE '2020-07-13',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Teresinha Betina Lívia Rezende','885.770.246-44',2.45,TIMESTAMP WITHOUT TIME ZONE '2020-07-13',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Antonio César Rezende','885.770.246-44',2.45,TIMESTAMP WITHOUT TIME ZONE '2020-07-13',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Luzia Yasmin Esther Dias','885.770.246-44',2.45,TIMESTAMP WITHOUT TIME ZONE '2020-07-13',2);
