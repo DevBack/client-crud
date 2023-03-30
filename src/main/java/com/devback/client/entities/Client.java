@@ -4,6 +4,8 @@ import java.io.Serializable;
 import java.time.Instant;
 import java.util.Objects;
 
+import com.devback.client.dto.ClientDTO;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -37,6 +39,15 @@ public class Client implements Serializable{
 		this.income = income;
 		this.birthDate = birthDate;
 		this.children = children;
+	}
+	
+	public Client(ClientDTO dto) {
+		this.id = dto.getId();
+		this.name = dto.getName();
+		this.cpf = dto.getCpf();
+		this.income = dto.getIncome();
+		this.birthDate = dto.getBirthDate();
+		this.children = dto.getChildren();
 	}
 
 	public Long getId() {
@@ -102,5 +113,13 @@ public class Client implements Serializable{
 			return false;
 		Client other = (Client) obj;
 		return Objects.equals(id, other.id);
+	}
+	
+	public void setAttribute(ClientDTO dto) {
+		this.name = dto.getName();
+		this.cpf = dto.getCpf();
+		this.income = dto.getIncome();
+		this.birthDate = dto.getBirthDate();
+		this.children = dto.getChildren();
 	}
 }
